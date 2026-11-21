@@ -1,0 +1,152 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos que ofrecemos</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fffdf4;
+            color: #234745;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #277f7b;
+            background-color: #e0f4ed;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        ul {
+            list-style-type: disc;
+            padding-left: 30px;
+        }
+
+        li {
+            background-color: white;
+            border-left: 5px solid #78c9c1;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+        }
+
+        .producto {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        .descripcion {
+            flex: 1;
+        }
+
+        .imagen {
+            width: 180px;
+            height: 130px;
+            background-color: #fff0b5;
+            border: 2px dashed #277f7b;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            overflow: hidden;
+        }
+
+        .imagen img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        h3 {
+            color: #277f7b;
+            margin-top: 0;
+        }
+
+        @media (max-width: 600px) {
+            .producto {
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            .imagen {
+                width: 100%;
+                height: 180px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>PRODUCTOS QUE OFRECEMOS</h1>
+
+    <ul>
+        <li>
+            <div class="producto">
+                <div class="descripcion">
+                    <h3>Kits de Libros y Libretas Recicladas</h3>
+                    Materiales básicos a bajo costo diseñados para
+                    que ningún niño se quede sin estudiar por falta
+                    de útiles escolares.
+                </div>
+                <div class="imagen">
+                   <img src="kit de libros.webp">
+                </div>
+            </div>
+        </li>
+
+        <li>
+            <div class="producto">
+                <div class="descripcion">
+                    <h3>Cursos y Talleres Gratuitos</h3>
+                    Clases de apoyo virtual y presencial para
+                    estudiantes que necesitan ayuda con sus
+                    tareas escolares.
+                </div>
+                <div class="imagen">
+                  <img src="curso aulanova.jpg">
+                </div>
+            </div>
+        </li>
+
+        <li>
+            <div class="producto">
+                <div class="descripcion">
+                    <h3>Mochila Escolar con Luz Solar</h3>
+                    Mochila equipada con una lámpara LED recargable
+                    para que los alumnos puedan hacer la tarea
+                    por la noche cuando no tienen electricidad.
+                </div>
+                <div class="imagen">
+                    <img src="mochila.png">
+                </div>
+            </div>
+        </li>
+
+        <li>
+            <div class="producto">
+                <div class="descripcion">
+                    <h3>Plataforma Web Abierta</h3>
+                    Sitio en internet donde compartimos resúmenes,
+                    guías de examen y material educativo de acceso
+                    libre.
+                </div>
+                <div class="imagen">
+                    <img src="aulanova logo.png">
+                </div>
+            </div>
+        </li>
+    </ul>
+
+</body>
+</html>
+```
